@@ -1,12 +1,11 @@
 import reactLogo from '../assets/react-core.png';
-const reactDescriptions = ['Fundamental', 'Crucial', 'Core']
 import "./Header.css"
 
 
 function genRandom(max){
   return Math.floor(Math.random() * (max + 1));
 }
-
+const reactDescriptions = ['Fundamental', 'Crucial', 'Core']
 const qualifier = reactDescriptions[genRandom(2)];
 
 export const Header = () => {
