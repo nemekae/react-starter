@@ -11,7 +11,6 @@ function App() {
   const [topic, setTopic] = useState('components');
 
   const handleSelect= (choiceButton) => {
-    //choiceButton => 'components', 'jsx', 'props', 'state'
     setTopic(choiceButton)
   }
 
